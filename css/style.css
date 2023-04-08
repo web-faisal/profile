@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.carousel-item{
+    height: 100%;
+}
+.hover-ani :hover{
+    background-color: #dd132b !important;
+    color: white !important;
+}
+.hover-ani :hover i{
+    color: white !important;
+}
+.hover-ani :hover p{
+    color: white !important;
+}
+.hover-ani :hover span{
+    color: white !important;
+}
+.footer .list ul li{
+    list-style: none;
+}
+.section-header::after{
+    content: " ";
+    position: absolute;
+    width: 180px;
+    height: 7px;
+    background: linear-gradient(90deg, #dd132b, #df4759ee);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border-radius: 200px;
+    display: block;
+}
+.privacy-header::after{
+    width: 280px;
+}
+.footer-border::before{
+    content: " ";
+    position: absolute;
+    height: 4px;
+    background: linear-gradient(180deg, #df4759,#dd132b);
+    left: 0;
+    right: 0;
+    margin: 0 auto 0 auto;
+    display: block;
+}
+.footer-border{
+    margin-bottom: -40px;
+}
+.dropdown-menu{
+    border-radius: 12px !important;
+    min-width: 300px !important;
+    padding: 20px !important;
+    border: 2px solid rgba(0,0,0,.075);
+}
+.social-links .btn{
+    box-shadow: 0 5px 15px 1px #00000070;
+    border-radius: 30%;
+    width: 50px;
+    height: 50px;
+}
+.social-links .btn i{
+    line-height: 35px;
+}
+.social-links .btn:hover .fab{
+    color: #dd6170e0 !important;
+}
+.social-links .btn:hover .far{
+    color: #dd6170e0 !important;
+}
+.menu-item:hover{
+    color: rgba(255, 255, 255, 0.829) !important;
+}
+.img-border{
+    border-radius: 20px;
+}
+@media (max-width:480px) {
+    .anchor{
+        font-size: 16px !important;
+    }
+    .anchor-tag{
+        font-size: 14px !important;
+    }
+}
+.dropdown-item:hover{
+    background: #DF4759 !important;
+}
+.dropdown-menu{
+    padding: 10px 0px !important;
+}
+.dropdown-item{
+    padding: .30rem 3rem;
+}
+button.bg-danger.slider {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+@media (min-width: 1400px) {
+    .card-height{
+        height: 75vh;
+    }
+    .card-image{
+        height: 50vh;
+    }
+}
+@media (max-width: 768px) {
+    .card-height{
+        height: auto !important;
+    }
+}
